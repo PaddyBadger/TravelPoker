@@ -11,8 +11,9 @@ If I try any of the activities below, I should be prompted to sign in.
 I should be able to:
 
 - Sign in or sign up using my email or Facebook
-- Like or up vote any card or deck
-- Like or up vote any comment on a card
+- Like any card or deck
+- Up vote any comment on a card
+- See my likes
 - Leave a comment on a card or deck
 - Create and name my own decks of cards
 - Duplicate a deck of cards for my own use
@@ -23,4 +24,6 @@ I should be able to:
 - Share decks and cards with friends via email and social networking
 - Follow other users who create cards that I like
 - View popular users and their cards and decks
+
+
 

@@ -1,6 +1,5 @@
 MVP Site Map
 
-/search/
 travelpoker/home
 travelpoker/search/results/
 travelpoker/search/results/deck1/cards/

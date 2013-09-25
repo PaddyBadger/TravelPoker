@@ -1,6 +1,8 @@
-decks - title, location, image, cards, card categories, likes, user_id
-cards - deck_id, title, location, image, description, category, season, url, comments, user_id
+decks - title, location, image, user_id
+cards - title, location, image, description, category_id, season_id, url, user_id
 comments - card_id, user_id, title, description
-likes - deck_id, card_id, user_id
-voting - comment_id, user_id
-user - name, [devise*], avatar, decks, cards, likes, comments, votes
+likes - likeable_id, type, user_id
+votes - comment_id, user_id, vote
+user - name, [devise*], avatar
+category - name, image
+season - name

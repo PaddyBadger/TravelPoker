@@ -13,12 +13,10 @@ class VotesController < ApplicationController
   
   private
 
-  def setup #polymorphic treatement of cards and decks?
+  def setup 
     @card = Cards.find(params[:card_id])
-    @deck = Deck.find(params[:deck_id])
-
     @vote = @card.votes.where(user_id: current_user.id).first
-    @vote = @deck.votes.where(user_id: current_user.id).first
+   
   end
 
   def update_vote(new_value)

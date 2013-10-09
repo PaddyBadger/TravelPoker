@@ -1,0 +1,10 @@
+<div class="deck">
+  <div class="pokerHover">
+    <a href="#">1</a><!-- %=render partial: 'likes/likeable', locals: { deck: deck } -->
+  </div>
+  <%= image_tag (deck.image) %>
+  <div class="tripInfo">
+    <h3><%= markdown (deck.title)%></h3>
+    <p><%= markdown (deck.location)%></p>
+  </div>
+</div>

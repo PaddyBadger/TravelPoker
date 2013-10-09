@@ -1,0 +1,5 @@
+.topDeck
+  .logo
+    %img{src: "assets/poker.png"}
+    = render partial: 'deck', collection: @decks
+    = will_paginate @decks

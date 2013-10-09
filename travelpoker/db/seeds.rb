@@ -2,7 +2,11 @@ europe = Deck.create(title: 'Eating in Europe', location: 'Europe', image: 'http
 
 world = Deck.create(title: 'An Incredible Gap Year', location: 'The World', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1LpqxFgUSjPhU6SENa9kxHH7au1IM4Mz5lcewo4Zyuv9X7nUb')
 
-london = Card.create(title: 'Saunter Down South Bank', location: 'London, UK', image: 'http://photorefraction.files.wordpress.com/2011/03/london-south-bank-1.jpg', url: 'n/a', description: 'If you\'re lucky with the weather, nothing in London beats a wander down South Bank in a crisp sunny day')
+europe = Deck.create(title: 'Eating in Europe', location: 'Europe', image: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSNVsO5DNbbKJr4VWQIiQCCz40QhvjV4LBccVGo3gzSDdOLPfIOJQ')
+
+world = Deck.create(title: 'An Incredible Gap Year', location: 'The World', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1LpqxFgUSjPhU6SENa9kxHH7au1IM4Mz5lcewo4Zyuv9X7nUb')
+
+london = Card.create(title: 'Saunter Down South Bank', location: 'London, UK', image: 'http://photorefraction.files.wordpress.com/2011/03/london-south-bank-1.jpg', url: 'n/a', description: 'If you\'re lucky with the weather, nothing in London beats a wander down South Bank in a crisp sunny day. yes you should totally definitely do this.')
 
 nyc = Card.create(title: 'Kayack on the Hudson', location: 'Manhattan, New York', image: 'http://paddleforourplanet.org/wp-content/uploads/2010/09/5036264103_57198a78e9.jpg', url: 'n/a', description: 'A novel way to see New York from the river, you can kayak for free on pier 40')
 

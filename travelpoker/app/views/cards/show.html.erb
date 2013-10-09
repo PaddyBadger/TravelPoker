@@ -1,0 +1,12 @@
+<div class="tripBack">
+  <!-- render partials for, categories, likes, keep and share...? -->
+  <h1><%= markdown @card.title%></h1>
+  <h3><%= markdown @card.location%></h3>
+  <%= image_tag @card.image%>
+  <div class="tripInfoBack">
+    <h3><%= markdown @card.title%></h3>
+    <h5><%= markdown @card.location%></h5>
+    <p><%= markdown @card.description%></p>
+    <p><%= markdown @card.url%></p>
+  </div>
+</div>

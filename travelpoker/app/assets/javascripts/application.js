@@ -1,4 +1,11 @@
-			$=jQuery;
+= require bootstrap.min
+= require camera.min
+= require jquery.dropkick-1.0.0
+= require jquery.easing.1.3
+= require jquery.min
+= require slide
+
+		$=jQuery;
 
 		$(document).ready(function(){
 		jQuery(function(){

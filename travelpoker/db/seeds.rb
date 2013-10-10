@@ -2,9 +2,9 @@ europe = Deck.create(title: 'Eating in Europe', location: 'Europe', image: 'http
 
 world = Deck.create(title: 'An Incredible Gap Year', location: 'The World', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1LpqxFgUSjPhU6SENa9kxHH7au1IM4Mz5lcewo4Zyuv9X7nUb')
 
-europe = Deck.create(title: 'Eating in Europe', location: 'Europe', image: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSNVsO5DNbbKJr4VWQIiQCCz40QhvjV4LBccVGo3gzSDdOLPfIOJQ')
+nandsamerica = Deck.create(title: 'Exploring the Americas', location: 'North and South America', image: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR7uHfJpO2iKCKJwK-cj7spEy3IG-h11Pz6MP7QbJW4rnT0UdOo')
 
-world = Deck.create(title: 'An Incredible Gap Year', location: 'The World', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1LpqxFgUSjPhU6SENa9kxHH7au1IM4Mz5lcewo4Zyuv9X7nUb')
+europeandus = Deck.create(title: 'Dream Trip to Europe and The US', location: 'Europe and US', image: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR25OHcqsjLO4swCXmLdSOzP3jQWnmb_LXqYoP7sdi9E6yY62MguQ')
 
 london = Card.create(title: 'Saunter Down South Bank', location: 'London, UK', image: 'http://photorefraction.files.wordpress.com/2011/03/london-south-bank-1.jpg', url: 'n/a', description: 'If you\'re lucky with the weather, nothing in London beats a wander down South Bank in a crisp sunny day. yes you should totally definitely do this.')
 
@@ -24,5 +24,26 @@ hanoi = Card.create(title: 'September\'s Spectacular in Hanoi', location: 'Hanoi
 
 
 europe.cards << london
+europe.cards << paris
+europe.cards << rome
+
 world.cards << london
 world.cards << nyc
+world.cards << paris
+world.cards << rome
+world.cards << rio
+world.cards << toronto
+world.cards << buzios
+world.cards << hanoi
+
+nandsamerica.cards << toronto
+nandsamerica.cards << nyc
+nandsamerica.cards << rio
+nandsamerica.cards << buzios
+
+europeandus.cards << london
+europeandus.cards << paris
+europeandus.cards << rome
+europeandus.cards << toronto
+europeandus.cards << nyc
+

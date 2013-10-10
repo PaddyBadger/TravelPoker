@@ -1,13 +1,20 @@
-<div class="searchIn">
-          <input type="text" placeholder="Search for your Deal!!">
-          <a href="#" class="button">Deal</a>
-        </div>
-      </div>
-        <div class="camera_wrap camera_emboss pattern_1" id="camera_wrap_4">
-            <div data-src="assets/homepage1.png"> </div>
-            <div  data-src="assets/homepage2.jpg"></div>
-        </div>
+<div class="centerDiv topSlider fade">
+  <div class="searchIn">
+    <input type="text" placeholder="Be Inspired for Your Trip!!">
+    <a href="#" class="button">Deal</a>
+  </div>      
+</div>
+<div class="pic">
+  <img src="assets/homepage1.png" />
+</div>
 <div class="topDeck">
     <img src="assets/pokerc.png">
-    <%= render partial: "/cards/card", collection: @cards %>
+    <%= render @cards %>
+    <%= will_paginate @cards %>
+</div>
+<div class="topDeck">
+    <img src="assets/poker.png">
+    <%= render @decks %>
+    <%= will_paginate @decks %>
+</div>
     

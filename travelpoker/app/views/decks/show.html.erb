@@ -1,2 +1,5 @@
-<h1>Decks#show</h1>
-<p>Find me in app/views/decks/show.html.erb</p>
+<div class="topDeck">
+  <h1><%= @deck.title %></h1>
+    <%= render @cards %>
+    <%= will_paginate @cards %>
+</div>

@@ -1,5 +1,7 @@
 Travelpoker::Application.routes.draw do
 
+  devise_for :users
+
   resources :decks do
     resources :likes, only: [:create, :destroy]
   end

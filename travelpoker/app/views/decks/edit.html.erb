@@ -1,2 +1,9 @@
-<h1>Decks#edit</h1>
-<p>Find me in app/views/decks/edit.html.erb</p>
+<div class="topDeck">
+  <h3>Create A New Deck</h3>
+</div>
+    <%= render partial: 'form', locals: { deck: @deck } %>
+<div class="topDeck">
+  <h3>Add Cards To Deck</h3>
+    <%= render @cards %>
+    <%= will_paginate @cards %>
+</div>

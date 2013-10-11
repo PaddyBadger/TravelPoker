@@ -1,7 +1,7 @@
 <!DOCTYPE html>
  <html>
   <head>
-    <link rel="shortcut icon" href="assets/pokerlike.png"/>
+    <link rel="shortcut icon" href="/assets/pokerlike.png"/>
      <title>Travel Poker</title>
     <%= stylesheet_link_tag"application", :media => "all" %>
     <%= javascript_include_tag "application" %>
@@ -17,8 +17,8 @@
             <input type="password" value="" placeholder="Password" class="inputAll">
             <a href="#" class="btn btnAll">Sign In</a>
           <div class="signInMeta">
-            <a href="#"><img src="assets/facebookLog.png"/></a>
-            <a href="#"><img src="assets/gmailLog.png"/></a>
+            <a href="#"><img src="/assets/facebookLog.png"/></a>
+            <a href="#"><img src="/assets/gmailLog.png"/></a>
           </div>
     </div>
     <div class="topCol">
@@ -52,7 +52,7 @@
     <header>
       <div class="centerDiv">
         <div class="logo">
-          <a href="#"><img src="assets/logo.png" /></a>
+          <a href="#"><img src="/assets/logo.png" /></a>
         </div>
 
         <div class="topMenu fade">
@@ -94,16 +94,10 @@
           </ul>
         </div>
         <div class="footCol">
-          <h3>Top Destinations</h3>
-          <ul>
-            <li><a href="#">New York</a></li>
-            <li><a href="#">Paris</a></li>
-            <li><a href="#">Cairo</a></li>
-            <li><a href="#">Roma</a></li>
-          </ul>
+          <a href="#" class="btn btn-large btn-block creatDeck">Create a Deck</a>
+          <a href="#" class="btn btn-large btn-block creatDeck">Create a Card</a>
         </div>
         <div class="footCol">
-          <a href="#" class="btn btn-large btn-block creatDeck">Create a Deck</a>
           <a href="#" class="footLogo"></a>
         </div>
       </div>
@@ -118,12 +112,13 @@
       </ul>
       <p class="copyrights"> &copy; Copyrights 2013 all copyrights reserved - Travel Poker </p>
         <div class="footerSocial">
-          <a href="#"><img src="assets/facebook.png"></a>
-          <a href="#"><img src="assets/twitter.png"></a>
-          <a href="#"><img src="assets/gplus.png"></a>
-          <a href="#"><img src="assets/pinterest.png"></a>
+          <a href="#"><img src="/assets/facebook.png"></a>
+          <a href="#"><img src="/assets/twitter.png"></a>
+          <a href="#"><img src="/assets/gplus.png"></a>
+          <a href="#"><img src="/assets/pinterest.png"></a>
         </div>
       </div>
+      <%= yield :scripts %>
     </footer>
 
 </body>

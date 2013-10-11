@@ -1,4 +1,5 @@
-.topDeck
-    %img{src: "assets/poker.png"}
-    = render partial: 'deck', collection: @decks
-    = will_paginate @decks
+<div class="topDeck">
+  <h3>Top Decks</h3>
+    <%= render partial: 'deck', collection: @decks %>
+    <%= will_paginate @decks %>
+</div>

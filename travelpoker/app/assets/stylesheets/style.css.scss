@@ -24,6 +24,9 @@ h1{ font-family:"Opal";
 h3{ font-family:"Opal";
   }
 
+h4{ font-family:"Opal";
+  }
+
 .wrapper{
   width:100%;
   margin:0px auto;
@@ -218,6 +221,19 @@ input{
   margin: auto;
 }
 
+.topDeck h3{
+  background: url('pokerlike.png') 30px 0px no-repeat;
+  padding: 4px;
+  margin-left: -11px;
+  color: #2f8dc9;
+  font-size: 35px;
+  margin-top: 6px;
+  margin-left:3px;
+  padding-left:85px;
+  margin-bottom: 10px;
+  background-size: 40px 40px;
+}
+
 .trip{
   margin-bottom: 35px;
   float: left;
@@ -249,18 +265,18 @@ input{
   position: relative;
   color: #fff;
   height: 70px;
-  top: -10px;
+  top: -20px;
 }
 
 .tripInfo:before{
   content: "";
   border-style: solid;
-  border-width: 0 18px 18px 18px;
+  border-width: 0 20px 20px 20px;
   border-color: transparent transparent #2980B9 transparent;
   height: 0px;
   position: absolute;
   right: 20px;
-  top: -18px;
+  top: -20px;
   width: 0px;
   -webkit-transform: rotate(360deg);
 }
@@ -295,13 +311,13 @@ input{
 }
 
 .tripBack {
-  width:1000px;
+  width:610px;
   margin: auto;
 }
 
 .tripBack img {
-  width:1000px;
-  height:300px;
+  width:610px;
+  height:350px;
 }
 
 
@@ -487,14 +503,15 @@ input{
 }
 
 .creatDeck{
-  position: absolute;
+  position: relative;
   right: 22px;
   top: 0px;
   font-family: "Opal";
-  font-size: 25px !important;
+  font-size: 20px !important;
   padding-bottom: 0px !important;
-  line-height: 30px;
-  height: 34px;
+  margin-bottom: 20px;
+    line-height: 30px;
+    height: 34px;
 } 
 
 .backBtn{

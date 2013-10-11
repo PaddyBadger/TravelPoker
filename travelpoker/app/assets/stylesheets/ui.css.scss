@@ -280,7 +280,11 @@ h6 {
     color: white; }
   .btn.btn-large {
     padding-bottom: 12px;
-    padding-top: 13px; }
+    padding-top: 13px;
+     -webkit-appearance:none;
+    font-family: "Opal";
+    font-size: 20px !important;
+   }
   .btn.btn-primary {
     background-color: #1abc9c; }
     .btn.btn-primary:hover, .btn.btn-primary:focus {
@@ -1083,11 +1087,6 @@ textarea[readonly] {
   border-color: transparent;
   color: #cad2d3;
   cursor: default; }
-
-input,
-textarea,
-.uneditable-input {
-  width: 192px; }
 
 .checkbox,
 .radio {

@@ -1,4 +1,4 @@
-<%= form_for [card], html: { class: '' } do |f| %>
+<%= form_for [card], html: { class: 'form' } do |f| %>
   <% if card.errors.any? %>
     <div class="alert alert-block">
       <h4>There are <%= pluralize(card.errors.count, "error") %>.</h4>
@@ -9,30 +9,30 @@
       </ul>
     </div>
   <% end %>
-    <%= f.label :title, class: 'control-label' %>
-    <div class="controls">
-      <%= f.text_field :title %>
-    </div>
-  <% end %>
-    <%= f.label :description, class: 'control-label' %>
-    <div class="controls">
-      <%= f.text_area :description, rows: 8 %>
-    </div>
-  <% end %>
-    <div class="control-group">
-    <%= image_tag(card.image.thumb.url) if card.image? %>
-    <%= f.label :image, class: 'control-label' %>
-    <div class="controls"> 
+  <div class="iinput">
+    <%= image_tag(card.image.back.url) if card.image? %>
+    <%= f.label :image, class: 'formlabel' %>
+    <div class="iinputtext"> 
       <%= f.file_field :image %>
     </div>
-    <%= f.label :url, class: 'control-label' %>
-    <div class="controls">
+    <%= f.label :url, class: 'formlabel' %>
+    <div class="tinput">
       <%= f.text_field :url %>
     </div>
   </div>
-  <div class="control-group">
-    <div class="controls">
-      <%= f.submit "Save", class: 'btn' %>
-    </div>
+  <%= f.label :title, class: 'formlabel' %>
+  <div class="tinput">
+    <%= f.text_field :title %>
+  </div>
+  <%= f.label :location, class: 'formlabel' %>
+  <div class="tinput">
+      <%= f.text_field :location %>
+  </div>
+  <%= f.label :description, class: 'formlabel' %>
+  <div class="pinput">
+    <%= f.text_area :description, rows: 8 %>
+  </div>
+  <div class="cbutton">
+    <%= f.submit "Save", class: 'btn btn-large' %>
   </div>
 <% end %>
